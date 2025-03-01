@@ -1,0 +1,54 @@
+@Movies.Api_HostAddress = https://localhost:7032
+
+GET {{Movies.Api_HostAddress}}/api/movies
+
+###
+
+POST {{Movies.Api_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "Title": "The Shawshank Redemption",
+  "YearOfRelease": 1994,
+  "Genres": [
+      "Drama"
+  ]
+}
+
+###
+
+POST {{Movies.Api_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "Title": "The Godfather",
+  "YearOfRelease": 1972,
+  "Genres": [
+      "Crime","Drama"
+  ]
+}
+
+###
+
+GET {{Movies.Api_HostAddress}}/api/movies/fa9d5f09-b86a-4432-a2d7-173082bc6316
+
+###
+
+PUT {{Movies.Api_HostAddress}}/api/movies/8ad582f4-d93b-4253-94eb-8648a2caf81f
+Content-Type: application/json
+
+{
+  "title": "The Godfather",
+      "yearOfRelease": 1972,
+      "genres": [
+        "Crime",
+        "Action",
+        "Drama"
+      ]
+}
+
+###
+
+DELETE {{Movies.Api_HostAddress}}/api/movies/8ad582f4-d93b-4253-94eb-8648a2caf81f
+
+###
