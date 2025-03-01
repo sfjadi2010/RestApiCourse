@@ -30,7 +30,7 @@ Content-Type: application/json
 
 ###
 
-GET {{Movies.Api_HostAddress}}/api/movies/fa9d5f09-b86a-4432-a2d7-173082bc6316
+GET {{Movies.Api_HostAddress}}/api/movies/the-godfather-1972
 
 ###
 
