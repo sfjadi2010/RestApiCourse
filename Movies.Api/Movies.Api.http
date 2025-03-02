@@ -34,7 +34,7 @@ GET {{Movies.Api_HostAddress}}/api/movies/the-godfather-1972
 
 ###
 
-PUT {{Movies.Api_HostAddress}}/api/movies/8ad582f4-d93b-4253-94eb-8648a2caf81f
+PUT {{Movies.Api_HostAddress}}/api/movies/dba917f6-7465-4b2e-987e-9df21cc4c2b9
 Content-Type: application/json
 
 {
@@ -42,13 +42,12 @@ Content-Type: application/json
       "yearOfRelease": 1972,
       "genres": [
         "Crime",
-        "Action",
         "Drama"
       ]
 }
 
 ###
 
-DELETE {{Movies.Api_HostAddress}}/api/movies/8ad582f4-d93b-4253-94eb-8648a2caf81f
+DELETE {{Movies.Api_HostAddress}}/api/movies/583d84e2-772b-4fd3-96fd-c5ddd2e1cb9a
 
 ###
