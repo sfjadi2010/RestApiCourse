@@ -30,6 +30,19 @@ Content-Type: application/json
 
 ###
 
+POST {{Movies.Api_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "Title": "Fight Club",
+  "YearOfRelease": 2026,
+  "Genres": [
+      "Crime","Drama"
+  ]
+}
+
+###
+
 GET {{Movies.Api_HostAddress}}/api/movies/the-godfather-1972
 
 ###
