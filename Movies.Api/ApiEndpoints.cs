@@ -14,4 +14,11 @@ public static class ApiEndpoints
         public const string Update = $"{Base}/{{id:guid}}";
         public const string Delete = $"{Base}/{{id:guid}}";
     }
+
+    public static class Token
+    {
+        private const string Base = $"{ApiBase}/token";
+
+        public const string Create = Base;
+    }
 }
